@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#datosUsuario {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#mostrarCursosBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+#mostrarCursosBtn:hover {
+    background-color: #45a049;
+}
+
+#cursosAlumnos {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+#cursosAlumnos li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#cursosAlumnos li:hover {
+    background-color: #ddd;
+}
+
+#descripcionCurso {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+}

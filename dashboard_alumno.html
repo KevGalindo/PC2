@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard del Alumno</title>
+    <link rel="stylesheet" href="css/alumno.css">
+</head>
+<body>
+    <h1>Bienvenido al Dashboard del Alumno</h1>
+    <div id="datosUsuario">
+        <!-- Aquí se mostrarán los datos del usuario logueado -->
+    </div>
+    <button onclick="mostrarHorario()">Mostrar Horario</button>
+    <div id="horario">
+        <!-- Aquí se mostrará el horario de clases -->
+    </div>
+    <h2>Encuesta: Profesor Favorito</h2>
+    <form id="encuestaForm">
+        <div class="pregunta">
+            <label for="profesor">¿Quién es tu profesor favorito?</label>
+            <select id="profesor" name="profesor">
+                <option value="maria">María</option>
+                <option value="juan">Juan</option>
+                <option value="carlos">Carlos</option>
+                <option value="laura">Laura</option>
+            </select>
+        </div>
+        <div class="pregunta">
+            <label for="motivo">¿Por qué es tu profesor favorito?</label>
+            <textarea id="motivo" name="motivo" rows="4" cols="50"></textarea>
+        </div>
+        <button type="submit">Enviar Encuesta</button>
+    </form>
+    <script src="js/dashboard_alumno.js"></script>
+</body>
+</html>
